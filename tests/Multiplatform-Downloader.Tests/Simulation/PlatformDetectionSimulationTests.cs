@@ -13,14 +13,32 @@ public class PlatformDetectionSimulationTests
     private static string RepoRoot =>
         Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", ".."));
 
+    // 시나리오 픽스처는 저장소에 추적되는 tests/ 하위가 정본 — docs/는 git 제외라 CI에 없다(CI 첫 실행 실측)
+    private static string FixtureDir =>
+        Path.Combine(RepoRoot, "tests", "Multiplatform-Downloader.Tests", "Simulation", "fixtures");
+
+    // 라운드 로그는 로컬에선 기존 docs 위치를 유지, docs가 없는 CI에선 임시 폴더에 쓴다
+    private static string LogDir
+    {
+        get
+        {
+            var docsSim = Path.Combine(RepoRoot, "docs", "analyses", "simulation");
+            if (Directory.Exists(docsSim))
+                return docsSim;
+            var tmp = Path.Combine(Path.GetTempPath(), "mpdl-sim-logs");
+            Directory.CreateDirectory(tmp);
+            return tmp;
+        }
+    }
+
     private sealed record Scenario(string id, string platform, string url, string expectDetect);
 
     [Fact]
     public void should_detect_all_p1_scenarios_per_measured_matrix()
     {
-        var simDir = Path.Combine(RepoRoot, "docs", "analyses", "simulation");
+        var simDir = LogDir;
         var scenarios = JsonSerializer.Deserialize<List<Scenario>>(
-            File.ReadAllText(Path.Combine(simDir, "fr-p1-scenarios.json")))!;
+            File.ReadAllText(Path.Combine(FixtureDir, "fr-p1-scenarios.json")))!;
         Assert.True(scenarios.Count >= 100, "요구: 시나리오 100개 이상");
 
         // 전 플랫폼 구현 완료(v2.10.0) — 모든 시나리오가 통과해야 한다(시뮬 2차 목표: 248/248).

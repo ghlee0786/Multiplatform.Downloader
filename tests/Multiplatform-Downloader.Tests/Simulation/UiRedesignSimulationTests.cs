@@ -25,14 +25,32 @@ public class UiRedesignSimulationTests
 
     private static string AppDir => Path.Combine(RepoRoot, "Multiplatform-Downloader");
 
+    // 시나리오 픽스처는 저장소에 추적되는 tests/ 하위가 정본 — docs/는 git 제외라 CI에 없다(CI 첫 실행 실측)
+    private static string FixtureDir =>
+        Path.Combine(RepoRoot, "tests", "Multiplatform-Downloader.Tests", "Simulation", "fixtures");
+
+    // 라운드 로그는 로컬에선 기존 docs 위치를 유지, docs가 없는 CI에선 임시 폴더에 쓴다
+    private static string LogDir
+    {
+        get
+        {
+            var docsSim = Path.Combine(RepoRoot, "docs", "analyses", "simulation");
+            if (Directory.Exists(docsSim))
+                return docsSim;
+            var tmp = Path.Combine(Path.GetTempPath(), "mpdl-sim-logs");
+            Directory.CreateDirectory(tmp);
+            return tmp;
+        }
+    }
+
     private static readonly MediaFormatSelector _selector = new();
 
     [Fact]
     public void should_pass_all_ui_redesign_scenarios_with_zero_fail()
     {
-        var simDir = Path.Combine(RepoRoot, "docs", "analyses", "simulation");
+        var simDir = LogDir;
         using var doc = JsonDocument.Parse(
-            File.ReadAllText(Path.Combine(simDir, "ui-redesign-scenarios.json")));
+            File.ReadAllText(Path.Combine(FixtureDir, "ui-redesign-scenarios.json")));
         var all = doc.RootElement.GetProperty("scenarios").EnumerateArray().ToList();
         Assert.True(all.Count >= 480, $"요구: 시나리오 500건 내외 (현재 {all.Count}건)");
 

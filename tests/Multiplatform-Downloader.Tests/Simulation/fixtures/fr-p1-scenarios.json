@@ -1,0 +1,1490 @@
+[
+ {
+  "id": "P1-001",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-002",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ&x=1",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-003",
+  "platform": "YouTube",
+  "url": "https://WWW.youtube.com/watch?v=aqz-KE-bpKQ",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-004",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-005",
+  "platform": "YouTube",
+  "url": "https://youtu.be/aqz-KE-bpKQ",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-006",
+  "platform": "YouTube",
+  "url": "https://youtu.be/aqz-KE-bpKQ?utm_source=share",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-007",
+  "platform": "YouTube",
+  "url": "https://youtu.be/aqz-KE-bpKQ/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-008",
+  "platform": "YouTube",
+  "url": "https://m.youtube.com/watch?v=aqz-KE-bpKQ",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-009",
+  "platform": "YouTube",
+  "url": "https://m.youtube.com/watch?v=aqz-KE-bpKQ&x=1",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-010",
+  "platform": "YouTube",
+  "url": "https://m.youtube.com/watch?v=aqz-KE-bpKQ/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-011",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/shorts/abcDEF12345",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-012",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/shorts/abcDEF12345?utm_source=share",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-013",
+  "platform": "YouTube",
+  "url": "https://WWW.youtube.com/shorts/abcDEF12345",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-014",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/shorts/abcDEF12345/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-015",
+  "platform": "YouTube",
+  "url": "https://youtube.com/watch?v=aqz-KE-bpKQ&t=10s",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-016",
+  "platform": "YouTube",
+  "url": "https://youtube.com/watch?v=aqz-KE-bpKQ&t=10s&x=1",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-017",
+  "platform": "YouTube",
+  "url": "https://youtube.com/watch?v=aqz-KE-bpKQ&t=10s/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-018",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/live/abcDEF12345",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-019",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/live/abcDEF12345?utm_source=share",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-020",
+  "platform": "YouTube",
+  "url": "https://WWW.youtube.com/live/abcDEF12345",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-021",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/live/abcDEF12345/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-022",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-023",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/feed/subscriptions",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-024",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/@SpaceX",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-025",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/results?search_query=cat",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-026",
+  "platform": "YouTube",
+  "url": "https://www.youtube.com/playlist?list=PL123",
+  "expectDetect": "YouTube"
+ },
+ {
+  "id": "P1-027",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/p/DZJDiOkgKa8/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-028",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/p/DZJDiOkgKa8/?utm_source=share",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-029",
+  "platform": "Instagram",
+  "url": "https://WWW.instagram.com/p/DZJDiOkgKa8/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-030",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/p/DZJDiOkgKa8",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-031",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/reel/Cabc123_xy/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-032",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/reel/Cabc123_xy/?utm_source=share",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-033",
+  "platform": "Instagram",
+  "url": "https://WWW.instagram.com/reel/Cabc123_xy/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-034",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/reel/Cabc123_xy",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-035",
+  "platform": "Instagram",
+  "url": "https://instagr.am/p/DZJDiOkgKa8/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-036",
+  "platform": "Instagram",
+  "url": "https://instagr.am/p/DZJDiOkgKa8/?utm_source=share",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-037",
+  "platform": "Instagram",
+  "url": "https://instagr.am/p/DZJDiOkgKa8",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-038",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/tv/Cabc123/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-039",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/tv/Cabc123/?utm_source=share",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-040",
+  "platform": "Instagram",
+  "url": "https://WWW.instagram.com/tv/Cabc123/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-041",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/tv/Cabc123",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-042",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/username/p/DZJDiOkgKa8/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-043",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/username/p/DZJDiOkgKa8/?utm_source=share",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-044",
+  "platform": "Instagram",
+  "url": "https://WWW.instagram.com/username/p/DZJDiOkgKa8/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-045",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/username/p/DZJDiOkgKa8",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-046",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-047",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/explore/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-048",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/spacex/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-049",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/direct/inbox/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-050",
+  "platform": "Instagram",
+  "url": "https://www.instagram.com/stories/user/123/",
+  "expectDetect": "Instagram"
+ },
+ {
+  "id": "P1-051",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@user/video/7651529722161057032",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-052",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@user/video/7651529722161057032?utm_source=share",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-053",
+  "platform": "TikTok",
+  "url": "https://WWW.tiktok.com/@user/video/7651529722161057032",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-054",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@user/video/7651529722161057032/",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-055",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@_/video/7651529722161057032",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-056",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@_/video/7651529722161057032?utm_source=share",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-057",
+  "platform": "TikTok",
+  "url": "https://WWW.tiktok.com/@_/video/7651529722161057032",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-058",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@_/video/7651529722161057032/",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-059",
+  "platform": "TikTok",
+  "url": "https://vm.tiktok.com/ZSAbCdEf/",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-060",
+  "platform": "TikTok",
+  "url": "https://vm.tiktok.com/ZSAbCdEf/?utm_source=share",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-061",
+  "platform": "TikTok",
+  "url": "https://vm.tiktok.com/ZSAbCdEf",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-062",
+  "platform": "TikTok",
+  "url": "https://vt.tiktok.com/ZSAbCdEf/",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-063",
+  "platform": "TikTok",
+  "url": "https://vt.tiktok.com/ZSAbCdEf/?utm_source=share",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-064",
+  "platform": "TikTok",
+  "url": "https://vt.tiktok.com/ZSAbCdEf",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-065",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/ko-KR/",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-066",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/foryou",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-067",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/@user",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-068",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/search?q=cat",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-069",
+  "platform": "TikTok",
+  "url": "https://www.tiktok.com/explore",
+  "expectDetect": "TikTok"
+ },
+ {
+  "id": "P1-070",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/explore/6a548dcf000000000f01e387",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-071",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/explore/6a548dcf000000000f01e387?utm_source=share",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-072",
+  "platform": "Xiaohongshu",
+  "url": "https://WWW.xiaohongshu.com/explore/6a548dcf000000000f01e387",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-073",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/explore/6a548dcf000000000f01e387/",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-074",
+  "platform": "Xiaohongshu",
+  "url": "https://www.rednote.com/explore/6a548dcf000000000f01e387?xsec_token=AB",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-075",
+  "platform": "Xiaohongshu",
+  "url": "https://www.rednote.com/explore/6a548dcf000000000f01e387?xsec_token=AB&x=1",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-076",
+  "platform": "Xiaohongshu",
+  "url": "https://WWW.rednote.com/explore/6a548dcf000000000f01e387?xsec_token=AB",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-077",
+  "platform": "Xiaohongshu",
+  "url": "https://www.rednote.com/explore/6a548dcf000000000f01e387?xsec_token=AB/",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-078",
+  "platform": "Xiaohongshu",
+  "url": "https://xhslink.com/a/AbCdEf",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-079",
+  "platform": "Xiaohongshu",
+  "url": "https://xhslink.com/a/AbCdEf?utm_source=share",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-080",
+  "platform": "Xiaohongshu",
+  "url": "https://xhslink.com/a/AbCdEf/",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-081",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/discovery/item/6a548dcf000000000f01e387",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-082",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/discovery/item/6a548dcf000000000f01e387?utm_source=share",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-083",
+  "platform": "Xiaohongshu",
+  "url": "https://WWW.xiaohongshu.com/discovery/item/6a548dcf000000000f01e387",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-084",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/discovery/item/6a548dcf000000000f01e387/",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-085",
+  "platform": "Xiaohongshu",
+  "url": "https://www.rednote.com/explore",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-086",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-087",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/user/profile/5b9f...",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-088",
+  "platform": "Xiaohongshu",
+  "url": "https://www.xiaohongshu.com/search_result?keyword=x",
+  "expectDetect": "Xiaohongshu"
+ },
+ {
+  "id": "P1-089",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/watch/?v=10155529876156509",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-090",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/watch/?v=10155529876156509&x=1",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-091",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/watch/?v=10155529876156509",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-092",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/watch/?v=10155529876156509/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-093",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/reel/1195289147628387",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-094",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/reel/1195289147628387?utm_source=share",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-095",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/reel/1195289147628387",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-096",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/reel/1195289147628387/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-097",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/radiokicksfm/videos/3676516585958356/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-098",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/radiokicksfm/videos/3676516585958356/?utm_source=share",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-099",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/radiokicksfm/videos/3676516585958356/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-100",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/radiokicksfm/videos/3676516585958356",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-101",
+  "platform": "Facebook",
+  "url": "https://m.facebook.com/watch/?v=10155529876156509",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-102",
+  "platform": "Facebook",
+  "url": "https://m.facebook.com/watch/?v=10155529876156509&x=1",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-103",
+  "platform": "Facebook",
+  "url": "https://m.facebook.com/watch/?v=10155529876156509/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-104",
+  "platform": "Facebook",
+  "url": "https://fb.watch/abc123XY/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-105",
+  "platform": "Facebook",
+  "url": "https://fb.watch/abc123XY/?utm_source=share",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-106",
+  "platform": "Facebook",
+  "url": "https://fb.watch/abc123XY",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-107",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/v/AbCdEf123/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-108",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/v/AbCdEf123/?utm_source=share",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-109",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/share/v/AbCdEf123/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-110",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/v/AbCdEf123",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-111",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/r/AbCdEf123/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-112",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/r/AbCdEf123/?utm_source=share",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-113",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/share/r/AbCdEf123/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-114",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/share/r/AbCdEf123",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-115",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/video.php?v=10155529876156509",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-116",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/video.php?v=10155529876156509&x=1",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-117",
+  "platform": "Facebook",
+  "url": "https://WWW.facebook.com/video.php?v=10155529876156509",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-118",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/video.php?v=10155529876156509/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-119",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-120",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/cnn",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-121",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/bbc/reels/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-122",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/watch",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-123",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/groups/12345",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-124",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/marketplace",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-125",
+  "platform": "Facebook",
+  "url": "https://www.facebook.com/cnn/live_videos/",
+  "expectDetect": "Facebook"
+ },
+ {
+  "id": "P1-126",
+  "platform": "X",
+  "url": "https://x.com/SpaceX/status/1927509601001341037",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-127",
+  "platform": "X",
+  "url": "https://x.com/SpaceX/status/1927509601001341037?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-128",
+  "platform": "X",
+  "url": "https://x.com/SpaceX/status/1927509601001341037/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-129",
+  "platform": "X",
+  "url": "https://twitter.com/SpaceX/status/1927509601001341037",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-130",
+  "platform": "X",
+  "url": "https://twitter.com/SpaceX/status/1927509601001341037?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-131",
+  "platform": "X",
+  "url": "https://twitter.com/SpaceX/status/1927509601001341037/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-132",
+  "platform": "X",
+  "url": "https://mobile.x.com/spacex/status/1340452736664481794",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-133",
+  "platform": "X",
+  "url": "https://mobile.x.com/spacex/status/1340452736664481794?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-134",
+  "platform": "X",
+  "url": "https://mobile.x.com/spacex/status/1340452736664481794/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-135",
+  "platform": "X",
+  "url": "https://x.com/i/web/status/1927509601001341037",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-136",
+  "platform": "X",
+  "url": "https://x.com/i/web/status/1927509601001341037?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-137",
+  "platform": "X",
+  "url": "https://x.com/i/web/status/1927509601001341037/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-138",
+  "platform": "X",
+  "url": "https://x.com/i/status/1927509601001341037",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-139",
+  "platform": "X",
+  "url": "https://x.com/i/status/1927509601001341037?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-140",
+  "platform": "X",
+  "url": "https://x.com/i/status/1927509601001341037/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-141",
+  "platform": "X",
+  "url": "https://www.twitter.com/user_name/statuses/123456",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-142",
+  "platform": "X",
+  "url": "https://www.twitter.com/user_name/statuses/123456?utm_source=share",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-143",
+  "platform": "X",
+  "url": "https://WWW.twitter.com/user_name/statuses/123456",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-144",
+  "platform": "X",
+  "url": "https://www.twitter.com/user_name/statuses/123456/",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-145",
+  "platform": "X",
+  "url": "https://x.com/home",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-146",
+  "platform": "X",
+  "url": "https://x.com/explore",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-147",
+  "platform": "X",
+  "url": "https://x.com/SpaceX",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-148",
+  "platform": "X",
+  "url": "https://x.com/search?q=starship",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-149",
+  "platform": "X",
+  "url": "https://x.com/notifications",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-150",
+  "platform": "X",
+  "url": "https://x.com/i/lists/123456",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-151",
+  "platform": "X",
+  "url": "https://x.com/settings",
+  "expectDetect": "X"
+ },
+ {
+  "id": "P1-152",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/video/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-153",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/video/7604129988555574538?utm_source=share",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-154",
+  "platform": "Douyin",
+  "url": "https://WWW.douyin.com/video/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-155",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/video/7604129988555574538/",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-156",
+  "platform": "Douyin",
+  "url": "https://v.douyin.com/iAbCdEf/",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-157",
+  "platform": "Douyin",
+  "url": "https://v.douyin.com/iAbCdEf/?utm_source=share",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-158",
+  "platform": "Douyin",
+  "url": "https://v.douyin.com/iAbCdEf",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-159",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/note/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-160",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/note/7604129988555574538?utm_source=share",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-161",
+  "platform": "Douyin",
+  "url": "https://WWW.douyin.com/note/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-162",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/note/7604129988555574538/",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-163",
+  "platform": "Douyin",
+  "url": "https://www.iesdouyin.com/share/video/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-164",
+  "platform": "Douyin",
+  "url": "https://www.iesdouyin.com/share/video/7604129988555574538?utm_source=share",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-165",
+  "platform": "Douyin",
+  "url": "https://WWW.iesdouyin.com/share/video/7604129988555574538",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-166",
+  "platform": "Douyin",
+  "url": "https://www.iesdouyin.com/share/video/7604129988555574538/",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-167",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-168",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/discover",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-169",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/user/MS4wLjABAAAA123",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-170",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/search/dance",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-171",
+  "platform": "Douyin",
+  "url": "https://live.douyin.com/123456",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-172",
+  "platform": "Douyin",
+  "url": "https://www.douyin.com/collection/7300",
+  "expectDetect": "Douyin"
+ },
+ {
+  "id": "P1-173",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/videos/comments/zv89ll/some_title/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-174",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/videos/comments/zv89ll/some_title/?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-175",
+  "platform": "Reddit",
+  "url": "https://WWW.reddit.com/r/videos/comments/zv89ll/some_title/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-176",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/videos/comments/zv89ll/some_title",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-177",
+  "platform": "Reddit",
+  "url": "https://old.reddit.com/r/aww/comments/abc12/x/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-178",
+  "platform": "Reddit",
+  "url": "https://old.reddit.com/r/aww/comments/abc12/x/?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-179",
+  "platform": "Reddit",
+  "url": "https://old.reddit.com/r/aww/comments/abc12/x",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-180",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/funny/s/AbCd1234",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-181",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/funny/s/AbCd1234?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-182",
+  "platform": "Reddit",
+  "url": "https://WWW.reddit.com/r/funny/s/AbCd1234",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-183",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/funny/s/AbCd1234/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-184",
+  "platform": "Reddit",
+  "url": "https://v.redd.it/zv89llsvexdz",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-185",
+  "platform": "Reddit",
+  "url": "https://v.redd.it/zv89llsvexdz?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-186",
+  "platform": "Reddit",
+  "url": "https://v.redd.it/zv89llsvexdz/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-187",
+  "platform": "Reddit",
+  "url": "https://redd.it/zv89ll",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-188",
+  "platform": "Reddit",
+  "url": "https://redd.it/zv89ll?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-189",
+  "platform": "Reddit",
+  "url": "https://redd.it/zv89ll/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-190",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/comments/zv89ll/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-191",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/comments/zv89ll/?utm_source=share",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-192",
+  "platform": "Reddit",
+  "url": "https://WWW.reddit.com/comments/zv89ll/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-193",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/comments/zv89ll",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-194",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-195",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/videos/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-196",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/user/spez/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-197",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/videos/top/",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-198",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/search/?q=cat",
+  "expectDetect": "Reddit"
+ },
+ {
+  "id": "P1-199",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-200",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/824721750502199491/?utm_source=share",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-201",
+  "platform": "Pinterest",
+  "url": "https://WWW.pinterest.com/pin/824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-202",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/824721750502199491",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-203",
+  "platform": "Pinterest",
+  "url": "https://kr.pinterest.com/pin/824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-204",
+  "platform": "Pinterest",
+  "url": "https://kr.pinterest.com/pin/824721750502199491/?utm_source=share",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-205",
+  "platform": "Pinterest",
+  "url": "https://kr.pinterest.com/pin/824721750502199491",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-206",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.co.kr/pin/824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-207",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.co.kr/pin/824721750502199491/?utm_source=share",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-208",
+  "platform": "Pinterest",
+  "url": "https://WWW.pinterest.co.kr/pin/824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-209",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.co.kr/pin/824721750502199491",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-210",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/cute-cat-video-in-2024--824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-211",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/cute-cat-video-in-2024--824721750502199491/?utm_source=share",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-212",
+  "platform": "Pinterest",
+  "url": "https://WWW.pinterest.com/pin/cute-cat-video-in-2024--824721750502199491/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-213",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/pin/cute-cat-video-in-2024--824721750502199491",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-214",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-215",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/user/board-name/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-216",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/search/pins/?q=cat",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-217",
+  "platform": "Pinterest",
+  "url": "https://www.pinterest.com/ideas/",
+  "expectDetect": "Pinterest"
+ },
+ {
+  "id": "P1-218",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-219",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF/?utm_source=share",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-220",
+  "platform": "Threads",
+  "url": "https://WWW.threads.com/@nba/post/DVE1KAgEdgF/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-221",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-222",
+  "platform": "Threads",
+  "url": "https://www.threads.net/@zuck/post/CwP2yyiL15R",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-223",
+  "platform": "Threads",
+  "url": "https://www.threads.net/@zuck/post/CwP2yyiL15R?utm_source=share",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-224",
+  "platform": "Threads",
+  "url": "https://WWW.threads.net/@zuck/post/CwP2yyiL15R",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-225",
+  "platform": "Threads",
+  "url": "https://www.threads.net/@zuck/post/CwP2yyiL15R/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-226",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-227",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF?utm_source=share",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-228",
+  "platform": "Threads",
+  "url": "https://WWW.threads.com/@nba/post/DVE1KAgEdgF",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-229",
+  "platform": "Threads",
+  "url": "https://www.threads.com/@nba/post/DVE1KAgEdgF/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-230",
+  "platform": "Threads",
+  "url": "https://threads.net/@user/post/AbC123_-x",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-231",
+  "platform": "Threads",
+  "url": "https://threads.net/@user/post/AbC123_-x?utm_source=share",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-232",
+  "platform": "Threads",
+  "url": "https://threads.net/@user/post/AbC123_-x/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-233",
+  "platform": "Threads",
+  "url": "https://www.threads.com/t/AbC123_-x",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-234",
+  "platform": "Threads",
+  "url": "https://www.threads.com/t/AbC123_-x?utm_source=share",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-235",
+  "platform": "Threads",
+  "url": "https://WWW.threads.com/t/AbC123_-x",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-236",
+  "platform": "Threads",
+  "url": "https://www.threads.com/t/AbC123_-x/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-237",
+  "platform": "Threads",
+  "url": "https://www.threads.com/",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-238",
+  "platform": "Threads",
+  "url": "https://www.threads.net/@zuck",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-239",
+  "platform": "Threads",
+  "url": "https://www.threads.com/search?q=news",
+  "expectDetect": "Threads"
+ },
+ {
+  "id": "P1-240",
+  "platform": "보안(유사도메인)",
+  "url": "https://youtube.com.evil.com/watch?v=x",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-241",
+  "platform": "보안(유사도메인)",
+  "url": "https://xn--80ak6aa92e.com/video/1",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-242",
+  "platform": "보안(유사도메인)",
+  "url": "https://facebook.com.phish.io/reel/1",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-243",
+  "platform": "보안(유사도메인)",
+  "url": "ftp://x.com/user/status/123",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-244",
+  "platform": "보안(유사도메인)",
+  "url": "https://x.co/status/123",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-245",
+  "platform": "보안(유사도메인)",
+  "url": "https://pinterests.com/pin/123/",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-246",
+  "platform": "보안(유사도메인)",
+  "url": "not-a-url",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-247",
+  "platform": "보안(유사도메인)",
+  "url": "mpdl://add?url=x",
+  "expectDetect": "Unknown"
+ },
+ {
+  "id": "P1-248",
+  "platform": "보안(유사도메인)",
+  "url": "",
+  "expectDetect": "Unknown"
+ }
+]
