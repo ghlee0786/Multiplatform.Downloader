@@ -46,9 +46,13 @@ jobs:
         shell: pwsh
         run: |
           choco install innosetup -y --no-progress
+          # Korean.isl은 공식 언어로 승격됨(Unofficial 아님 — CI 실측 404) — 설치본에 없을 때만 공식 경로에서 보충
           $lang = "${env:ProgramFiles(x86)}\Inno Setup 6\Languages\Korean.isl"
-          Invoke-WebRequest "https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/Unofficial/Korean.isl" -OutFile $lang
-          if (-not (Test-Path $lang)) { Write-Error "Korean.isl 설치 실패"; exit 1 }
+          if (-not (Test-Path $lang)) {
+            Invoke-WebRequest "https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/Korean.isl" -OutFile $lang
+          }
+          if (-not (Test-Path $lang)) { Write-Error "Korean.isl 준비 실패"; exit 1 }
+          Write-Output "Korean.isl OK"
 
       - name: Compile installer
         shell: pwsh
