@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      # tools\(번들 엔진)는 git 미추적 — csproj 글롭이라 없어도 빌드·단위테스트에 영향 없음
+      - name: Test
+        run: dotnet test tests/Multiplatform-Downloader.Tests/Multiplatform-Downloader.Tests.csproj -v minimal
