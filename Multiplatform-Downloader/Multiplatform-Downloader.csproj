@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows</TargetFramework>
     <RootNamespace>Multiplatform_Downloader</RootNamespace>
-    <Version>2.13.7</Version>
+    <Version>2.13.8</Version>
     <!-- 토스트 알림·파일 속성에 표시되는 이름 — 미설정 시 어셈블리명 'Multiplatform-Downloader'가 노출됨 -->
     <AssemblyTitle>샤샤룽 다운로더</AssemblyTitle>
     <Product>샤샤룽 다운로더</Product>
