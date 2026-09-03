@@ -49,7 +49,8 @@ YouTube · Instagram · TikTok · 샤오홍슈(RedNote) · Threads · Facebook �
 **요구 사항**: Windows 10/11 (x64) · WebView2 런타임(Win11 기본 포함 — 로그인 창·인앱 재생용).
 다운로드 엔진(yt-dlp/ffmpeg/deno)은 설치 파일에 동봉되어 별도 설치가 없다.
 
-Chrome 확장 설치는 [`docs/chrome-extension-guide.md`](docs/chrome-extension-guide.md) 참고.
+**Chrome 확장 설치**: `chrome://extensions` → 개발자 모드 켜기 → "압축해제된 확장 프로그램 로드" →
+설치 폴더의 `chrome-extension` 선택 (`C:\Program Files\Shyshyroong Downloader\chrome-extension`).
 
 ---
 
@@ -105,8 +106,7 @@ dotnet format
 dotnet build Multiplatform-Downloader/Multiplatform-Downloader.csproj -c Release
 ```
 
-CI가 main 푸시/PR마다 전체 테스트를 실행한다. 통합 테스트에서 IP 밴 방지를 위해 **테스트 전용**
-프록시를 쓸 수 있다(선택) — 설정은 [`docs/testing-guide.md`](docs/testing-guide.md)와 [`.env.example`](.env.example) 참고.
+CI가 main 푸시/PR마다 전체 테스트를 실행한다.
 
 ---
 
@@ -118,8 +118,3 @@ CI가 main 푸시/PR마다 전체 테스트를 실행한다. 통합 테스트에
   - **yt-dlp** — [Unlicense](https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE)
   - **FFmpeg / ffprobe** — LGPL/GPL ([ffmpeg.org/legal.html](https://ffmpeg.org/legal.html))
   - **Deno** — MIT
-- 자세한 고지는 [`docs/legal-notice.md`](docs/legal-notice.md) 참고.
-
----
-
-*상세 문서: [`docs/Manual.md`](docs/Manual.md) · 문서 색인: [`docs/INDEX.md`](docs/INDEX.md)*
